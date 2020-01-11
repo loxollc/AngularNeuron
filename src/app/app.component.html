@@ -1,4 +1,29 @@
-<form class="configuration" id="inputConfiguration">
+<nav><nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand js-scroll-trigger" href="#page-top">Neuron Configuration</a>
+    <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+      <i class="fas fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item mx-0 mx-lg-1">
+          <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#inputConfiguration">Basic Configuration</a>
+        </li>
+        <li class="nav-item mx-0 mx-lg-1">
+          <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#featuresConfiguration">8-Port</a>
+        </li>
+        <li class="nav-item mx-0 mx-lg-1">
+          <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Binary Inputs</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav></nav>
+
+
+
+<form class="configuration inputConfiguration" id="inputConfiguration">
   <h4>Basic Configuration</h4>
   <hr>
 <div class="form-group">
@@ -44,7 +69,8 @@
               <label><input type = "radio" class="radio-inline" name="irange1"> 1-10 </label>
                <label><input type = "radio" class="radio-inline" name="irange1"> 4-20 </label>
          <input type="text" class="form-control" id="c1name" placeholder="ID">
-        <hr>
+        
+         <hr>      
     </div>
      <div class="customizeInput" id="currentInput2">
         <label>IRange2: </label>
@@ -129,14 +155,35 @@
     <h6>Binary Inputs - Select digital input numbers</h6>
     <hr>
     <div class="radio" id="binaryInputs">
+      <div id='divInput1' class='divInput'>
         <label><input type="checkbox">1</label>
+        <input type = "text" class="form-control" name="binaryInput1" placeholder="Name">
+        <label>Input Type: </label>
+        <label>N/O<input type = "radio" class="radio-inline" name="binaryInput1"></label>
+        <label>N/C<input type = "radio" class="radio-inline" name="binaryInput1"></label>
+        <hr>
+      </div>
+      <div id='divInput2' class='divInput'>
         <label><input type="checkbox">2</label>
+      </div>
+      <div id='divInput3' class='divInput'>
         <label><input type="checkbox">3</label>
+        </div>
+      <div id='divInput4' class='divInput'>
         <label><input type="checkbox">4</label>
+        </div>
+      <div id='divInput5' class='divInput'> 
          <label><input type="checkbox">5</label>
-        <label><input type="checkbox">6</label>
+         </div>
+      <div id='divInput6' class='divInput'>
+          <label><input type="checkbox">6</label>
+          </div>
+      <div id='divInput7' class='divInput'>
         <label><input type="checkbox">7</label>
+        </div>
+      <div id='divInput8' class='divInput'>
         <label><input type="checkbox">8</label>
+        </div>
     </div>
   </div>
 

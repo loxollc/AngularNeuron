@@ -24,10 +24,16 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/freelancer.css",
+              "src/freelancer.min.css"
               
             ],
-            "scripts": []
+            "scripts": [
+              "src/freelancer.js",
+              "src/freelancer.min.js"
+              
+             ]
           },
           "configurations": {
             "production": {

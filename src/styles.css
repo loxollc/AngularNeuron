@@ -5,11 +5,19 @@
     border-radius:10px;
     margin-left:10%;
     margin-right:10%;
-    margin-top:2%;
-  
-  
+    margin-top:10%;
   }
   
   .customizeInput {
       display : list-item;
+  }
+
+  .inputConfiguration {
+      margin-top:10%;
+  }
+
+  .divInput {
+
+
+
   }
