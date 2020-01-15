@@ -9,7 +9,8 @@
   }
   
   .customizeInput {
-      display : list-item;
+      width : 50%;
+      padding: 5px;
   }
 
   .inputConfiguration {
@@ -17,7 +18,6 @@
   }
 
   .divInput {
-
-
-
+      width:50%;
+      padding:5px;
   }

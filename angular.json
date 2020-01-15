@@ -30,9 +30,14 @@
               
             ],
             "scripts": [
-              "src/freelancer.js",
-              "src/freelancer.min.js"
+              "src/jquery/jquery.min.js",
+              "src/jquery/jquery.js",
               
+              "src/jquery-easing/jquery.easing.min.js",
+              "src/jquery-easing/jquery.easing.js",
+              "src/jquery-easing/jquery.easing.compatibility.js",
+              "src/freelancer.min.js",
+              "src/freelancer.js"
              ]
           },
           "configurations": {
@@ -98,7 +103,8 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+            ]
           }
         },
         "lint": {
